@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__mocks__",
+    "**/__tests__",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
